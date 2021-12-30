@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="src/img/unnamed.jpg" />
+    <title>Tra cứu toán rời rạc</title>
+    <link rel="stylesheet" href="src/Scss/reset.css">
+    <link rel="stylesheet" href="src/Scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="">
+                    <i class="far fa-newspaper"></i>
+                    <span>Tra Cứu</span>
+                </a>
+
+            </div>
+            <div class="header-search">
+                <span>
+                    <i class="fas fa fa-search"></i>
+               </span>
+                <input id="myInput" type="text" placeholder="Sreach ...">
+            </div>
+            <nav>
+                <ul>
+                    <li> <a class="active" href="">Home</a> </li>
+                    <li>
+                        <a href="">
+                            More
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown">
+                            <li onclick="KN();"> <a href="">Khái Niệm</a> </li>
+                            <li onclick="DL();"> <a href="">Định lí & Tính chất</a> </li>
+                            <li onclick="DBT();"> <a href="">Dạng bài tập</a> </li>
+                            <li onclick="PPG();"> <a href="">Phương pháp giải</a> </li>
+                            <li> <a href="">404 page</a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="">Contact</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-top">
+            <div class="main-right">
+                <div class="service">
+                    <div class="container">
+                        <div class="item">
+                            <i class="fas fa-book"></i>
+                            <a href="">Khái Niệm</a>
+                        </div>
+                        <div class="item">
+                            <i class="fas fa-bookmark"></i>
+                            <a href="">Định lí & Tính chất</a>
+                        </div>
+                        <div class="item">
+                            <i class="fab fa-wpforms"></i>
+                            <a href="">Dạng bài tập</a>
+                        </div>
+                        <div class="item">
+                            <i class="fas fa-pen"></i>
+                            <a href="">Phương pháp giải</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item flex a-center j-between">
+                            <div class="left">
+                                <span>Featured</span>
+                                <h2>
+                                    Toán rời rạc
+                                </h2>
+                            </div>
+                            <div class="right">
+                                <img src="src/img/258298650_853018942054900_7166959048814345611_n.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item flex a-center j-between">
+                            <div class="left">
+                                <span>Featured</span>
+                                <h2>
+                                    Chương 1: Logic
+                                </h2>
+                            </div>
+                            <div class="right">
+                                <img src="src/img/chuong 1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item flex a-center j-between">
+                            <div class="left">
+                                <span>Featured</span>
+                                <h2>
+                                    Chương 2: Quan hệ
+                                </h2>
+                            </div>
+                            <div class="right">
+                                <img src="src/img/chuong 2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item flex a-center j-between">
+                            <div class="left">
+                                <span>Featured</span>
+                                <h2>
+                                    Chương 3:Hàm Boole
+                                </h2>
+                            </div>
+                            <div class="right">
+                                <img src="src/img/chuong 3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-left">
+                <div class="btn">
+                    <span class="fas fa-bars"></span>
+                </div>
+                <nav class="sidebar">
+                    <div class="text">Mục Lục</div>
+                    <ul class="contents" id="myTable">
+                        <!-- Begin: Định nghĩa khái niệm của từng bài -->
+
+
+
+                        <!-- End -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="myform" id="checkboxs">
+
+        </div>
+        <div id="#hello">
+
+        </div>
+        <div class="box-scroll">
+            <div class="left-box-scroll">
+                <div class="title-ND">Nội Dung</div>
+                <div class="ND"></div>
+            </div>
+            <div class="right-box-scroll">
+                <div class="title-ND">Kiến thức liên quan</div>
+                <div class="KTLQ"></div>
+            </div>
+
+        </div>
+        <div class="totop">
+            <i class="fas fa-angle-up"></i>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="icon">
+                <ul>
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                </ul>
+            </div>
+            <div class="list">
+                <div class="img">
+                    <a href="">
+                        <i class="far fa-newspaper"></i>
+                        <span>Tra Cứu</span>
+                    </a>
+                </div>
+                <ul class="list1">
+                    <li class="  color">CÔNG TY</li>
+                    <li><a href=" ">Giới thiệu</a></li>
+                    <li><a href=" ">Việc làm</a></li>
+                    <li><a href="">For the Record</a></li>
+                </ul>
+                <ul class="list1">
+                    <li class="  color">CỘNG ĐỒNG</li>
+                    <li><a href=" ">Nhà phát triển</a></li>
+                    <li><a href=" ">Quảng cáo</a></li>
+                    <li><a href=" ">Nhà cung cấp</a></li>
+                </ul>
+                <ul class="list1">
+                    <li class="  color">LIÊN KẾT HỮU ÍCH</li>
+                    <li><a href=" ">Hỗ trợ</a></li>
+                    <li><a href=" ">Trình phát Web</a></li>
+                </ul>
+
+            </div>
+
+            <div class="end">
+                <ul class=" list2">
+                    <li><a href="">Pháp lý</a></li>
+                    <li><a href="">Trung tâm bảo mật</a></li>
+                    <li><a href="">Chính sách Quyền riêng tư</a></li>
+                    <li><a href="">Cookies</a></li>
+                    <li><a href="">Giới thiệu Quảng cáo</a></li>
+                </ul>
+                <ul class="block">
+                    <li><a href="">Vệt Nam(Tiếng Việt)</a></li>
+                    <li><a href="">2021 Lê Văn Việt</a></li>
+                </ul>
+            </div>
+
+    </footer>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script src="src/js/sidebar.js"></script>
+<script src="src/js/main.js"></script>
+<script src="src/js/checbbox.js"></script>
+<script src="src/js/search.js"></script>
+<script src="src/js/Content.js"></script>
+<script src="src/js/silder.js"></script>
+<script src="dist/owl.carousel.min.js"></script>
+
+</html>

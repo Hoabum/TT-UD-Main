@@ -1,0 +1,164 @@
+{
+    "posts": [{
+            "content": "Chương 1: Logic",
+            "id": 1,
+            "category": "Logic",
+            "data": [{
+                "content1": "Bài 1: Mệnh Đề",
+                "val": "1",
+                "bai1": [{
+                    "title": "   là một khẳng định có giá trị chân lý xác định, đúng hoặc sai. Câu hỏi, câu cảm thán, mệnh lệnh... không là mệnh đề.",
+                    "noidung": [{
+                        "ex": "+ Ví dụ <br> mặt trời quay quanh trái đất<br>1+1 =2 <br>Hôm nay trời đẹp quá !  (ko là mệnh đề) <br>Học bài đi ! (ko là mệnh đề)",
+                        "KH": "+ kí hiệu: người ta dùng các ký hiệu P, Q, R... để chỉ mệnh đề.",
+                        "muc1": "Chân trị của mệnh đề:+  một mệnh đề chỉ có thể đúng hoặc sai, không thể đồng thời  vừa đúng hoặc vừa sai. khi mệnh đề P đúng ta nói P có chân trị đúng , ngược lại ta nói P có chân trị sai.<br>+ chân trị đúng và chân trị sai sẽ được ký hiệu lần lượt là là 1(hay Đ,T) và 0( S,F).<br>+ Phân Loại: <br>a)mệnh đề phức hợp : là mệnh đề được xây dựng từ các mệnh đề khác nhờ liên kết bằng các liên từ ( và, hay , khi  và chỉ khi) hoặc trạng từ “không”<br>b)mệnh đề sơ cấp: ( nguyên thủy) : Là mệnh đề không thể xây dựng từ các mệnh đề khác thông qua liên từ hoặc trạng từ “ không”."
+                    }],
+                    "KTLQ": [{
+                        "text1": "1. Mệnh đề phức hợp: là mệnh đề được xây dựng từ các mệnh đề khác nhờ liên kết bằng các liên từ (và, hay, khi và chỉ khi,...) hoặc trạng từ “không”.",
+                        "text2": "2. Mệnh đề sơ cấp (nguyên thủy): Là mệnh đề không thể xây dựng từ các mệnh đề khác thông qua liên từ hoặc trạng từ “không”.",
+                        "ex": "Ví dụ. Phân loại các mệnh đề sau: <br>a) 2 không là số nguyên tố <br>b) 2 là số nguyên tố <br>c) Nếu 3 > 4 thì trời mưa <br>d) An đang xem phim hay An đang học bài <br>e) Hôm nay trời đẹp và 1 + 1 = 3"
+                    }]
+                }],
+                "content2": "Bài 2: Dạng Mệnh đề",
+
+                "bai2": [{
+                    "title": " -Dạng mệnh đề là một biểu thức được cấu tạo từ: - Các mệnh đề (các hằng mệnh đề 0, 1) - Các biến mệnh đề p, q, r, . . . , tức là các biến lấy giá trị là các mệnh đề nào đó - Các phép toán ¬, ∧, ∨, →, ↔ và dấu đóng mở ngoặc ().",
+                    "noidung": [{
+                        "ex": "+ Ví dụ <br> a) E(p, q) = ¬(¬p ∨ q) ∨ 1<br>b) F(p, q, r) = (p → q) ∨ ¬(q ∨ r) ",
+                        "DN": "Định nghĩa: Bảng chân trị của dạng mệnh đề E(p, q, r) là bảng ghi tất cả các trường hợp chân trị có thể xảy ra đối với dạng mệnh đề E theo chân trị của các biến mệnh đề p, q, r. ",
+                        "ex1": "Ví dụ:  Cho p, q, r là biến mệnh đề. Lập bảng chân trị của dạng mệnh đề sau:<br> E(p, q, r) = (p ∨ q) → r.",
+                        "DN1": "Độ ưu tiên các phép toán mệnh đề trong dạng mệnh đề <br>Thứ tự ưu tiên lần như sau: <br>mức 1: ¬ <br>mức 2: ∧, ∨ <br>mức 3: →, ↔ <br>Các phép toán trên cùng mức có cùng độ ưu tiên.  ",
+                        "ex2": "Ví dụ. <br>a) ¬p ∨ q → r ∨ s có nghĩa là ((¬p) ∨ q) → (r ∨ s)<br>b) ¬p ∧ q ∨ r là nhập nhằng. Ta cần phải dùng các dấu ngoặc để chỉ rõ nghĩa. ",
+                        "DN2": "Tương đương logic<br>Định nghĩa:  Hai dạng mệnh đề E và F được gọi là tương đương logic nếu chúng có cùng bảng chân trị. Ký hiệu. E ⇔ F (hay E ≡ F).<br>Ví dụ. ¬(p ∨ q) ⇔ ¬p ∧ ¬q.",
+                        "DN3": "Các quy tắc thay thế<br>Qui tắc 1:Trong dạng mệnh đề E, nếu ta thay thế biểu thức con F bởi một dạng mệnh đề tương đương logic thì dạng mệnh đề thu được vẫn còn tương đương logic với E.<br>Qui tắc 2: Giả sử dạng mệnh đề E là hằng đúng, nếu ta thay thế một biến p bằng một dạng mệnh đề nào đó thì mệnh đề có được vẫn là hằng đúng "
+                    }],
+                    "KTLQ": [{
+                        "text1": "Phép phủ định<br> -Phủ định của mệnh đề P được ký hiệu là ¬P hay P (đọc là “không” P hay “phủ định của” P), là mệnh đề được định bởi:<br> ¬P đúng ⇔ P sai.<br> -Ví dụ. <br> 1.P=“2 là số nguyên tố”⇒ ¬P = “2 không là số nguyên tố” <br> 2.Q =“1 > 2”⇒ ¬Q= “1 ≤ 2”",
+                        "text2": "Phép nối liền (hội, giao)<br>Phép nối liền của hai mệnh đề P và Q được kí hiệu bởi P ∧ Q (đọc là “P và Q”), là mệnh đề được định bởi: <br>P ∧ Q đúng ⇔ P và Q đồng thời đúng.<br>Ví dụ. Xác định chân trị của các mệnh đề sau:<br>a) 3 > 4 và Trần Hưng Đạo là vị tướng <br>b) 2 là số nguyên tố và là số chẵn <br>c) An đang hát và uống nước",
+                        "text3": "Phép nối rời (tuyển, hợp)  <br>Phép nối rời của hai mệnh đề P và Q được kí hiệu bởi P ∨ Q (đọc là “P hay Q”), là mệnh đề được định bởi:<br>P ∨ Q sai ⇔ P và Q đồng thời sai.<br>Ví dụ. Xác định chân trị của các mệnh đề sau:<br>a) 3 > 4 hay Paris là thủ đô của Anh<br>b) Mặt trời mọc ở hướng Đông hay 1 + 3 = 5 <br> c) π > 4 hay trời không mưa <br>d) 2 là số nguyên tố hay là số chẵn"
+                    }]
+                }],
+                "content3": "Bài 3:  Vị từ và Lượng Từ",
+                "bai3": [{
+                    "title": " Tập hợp là một khái niệm cơ bản của Toán học, dùng để chỉ một nhóm các đối tượng nào đó.",
+                    "noidung": [{
+                        "KH": "Ký hiệu. A, B, X, . . .<br>Nếu x là phần tử của tập hợp A, ta kí hiệu x ∈ A, ngược lại ta ký hiệu x /∈ A. ",
+                        "ex": "+ Ví dụ <br>1. N = {0, 1, 2, . . .} là tập hợp các số tự nhiên.<br> 2.Z = {0, 1, −1, 2, −2, . . .} tập hợp các số nguyên.<br>3.Q = m n | m, n ∈ Z, n 6= 0 tập hợp các số hữu tỉ. <br>4. R: Tập hợp các số thực.",
+                        "muc1": "Vị Từ",
+                        "DN": "Vị từ là một phát biểu p(x, y, ..), trong đó x, y, . . . là các biến thuộc tập hợp A, B, . . . cho trước sao cho: - Bản thân p(x, y, . . .) không phải là mệnh đề. - Nếu thay x, y, . . . thành giá trị cụ thể thì p(x, y, . . .) là mệnh đề.",
+                        "ex1": "1. r(x, y, z) = “x 2 + y 2 > z”.<br>2.q(x, y) = “x 2 + y = 1”<br>3. p(n) = “n + 1 là số nguyên tố”",
+                        "DN1": "Các Phép Toán trên vị từ",
+                        "ex2": "Cho trước các vị từ p(x), q(x) theo một biến x ∈ A. Khi ấy, ta cũng có các phép toán tương ứng như trên mệnh đề:<br>- Phủ định: ¬p(x)  <br>- Phép nối liền :p(x) ∧ q(x)<br>Phép nối rời :p(x) ∨ q(x)<br>- Phép kéo theo :p(x) → q(x)<br>- Phép kéo theo hai chiều: p(x) ↔ q(x)                       ",
+                        "TH": "TH 1. Khi thay x bởi một phần tử a tùy ý thuộc A, ta có p(a) đúng.<br> TH 2. Với một số giá trị a thuộc A, ta có p(a) đúng. <br>TH 3. Khi thay x bởi một phần tử a tùy ý thuộc A, ta có p(a) sai.",
+                        "DN2": "Cho p(x) là một vị từ theo một biến xác định trên A. Ta định nghĩa các mệnh đề lượng từ hóa của p(x) như sau:<br> Mệnh đề “Với mọi x thuộc A sao cho p(x) ”, kí hiệu bởi<br> “∀x ∈ A, p(x)”,<br>là mệnh đề đúng khi và chỉ khi p(a) luôn đúng với mọi giá trị a ∈ A.<br>- Mệnh đề “Tồn tại một x thuộc A sao cho p(x)” kí hiệu bởi :<br>“∃x ∈ A, p(x)”,<br>là mệnh đề đúng khi và chỉ khi có ít nhất một giá trị x = a0 nào đó sao cho mệnh đề p(a0) đúng. <br>Lưu ý. Từ tồn tại có thể được thay thế bởi “có” hay “có ít nhất"
+                    }],
+                    "KTLQ": [{
+                        "text1": "Các quy tắc phổ dụng:Đặc biệt hóa phổ dụng",
+                        "img": "B:\\Dowload\\TT-UD-main\\TT-UD-main\\src\\img\\Capture1",
+                        "text2": "Tổng quát hóa phổ dụng"
+                    }]
+                }]
+            }]
+        },
+        {
+            "content": "Chương 2: Quan hệ",
+            "id": 2,
+            "category": "QH",
+            "data": [{
+                "content1": "Bài 1:Quan hệ hai ngôi",
+                "bai1": [{
+                    "title": "   Định nghĩa 1: Một quan hệ hai ngôi từ tập A đến tập B là tập con R của tích Descartes A × B.                    ",
+                    "noidung": [{
+                        "ex": "+ Ví dụ <br> Cho A = {0, 1, 2} và B = {a, b}. Khi đó <br>R = {(0, a), (0, b), (1, a), (2, b)}<br>là một quan hệ từ A vào B. Quan hệ này được mô tả bằng",
+                        "KH": "+ kí hiệu: người ta dùng các ký hiệu P, Q, R... để chỉ mệnh đề.",
+                        "img": "B:\\Dowload\\TT-UD-main\\TT-UD-main\\src\\img\\Capture2",
+                        "DN": "Một quan hệ trên tập hợp A là một quan hệ hai ngôi từ A đến chính nó. ",
+                        "DN1": "Các tính chất của Quan hệ<br>Cho R là quan hệ trên A. Ta nói",
+                        "ex1": "R phản xạ ⇔ ∀x ∈ A, xRx.<br>R đối xứng ⇔ ∀x, y ∈ A, xRy → yRx.<br>R phản xứng ⇔ ∀x, y ∈ A, xRy ∧ yRx → x = y.<br>R bắc cầu (hay còn gọi là truyền) ⇔<br> ∀x, y, z ∈ A, xRy ∧ yRz → xRz."
+                    }],
+                    "KTLQ": [{
+                        "text1": "Biểu diễn quan hệ"
+
+                    }]
+                }],
+                "content2": "Bài 2: Quan hệ tương đương",
+                "bai2": [{
+                    "title": "Mệnh đề: là một khẳng định có giá trị chân lý xác định, đúng hoặc sai. Câu hỏi, câu cảm thán, mệnh lệnh... không là mệnh đề.",
+                    "noidung": [{
+                        "ex": "Ví dụ. Cho R là quan hệ trên Z, được xác định bởi <br> ∀x, y ∈ Z, xRy ⇔ x + y chẵn.<br> Khi đó R là quan hệ tương đương. ",
+                        "ex1": "Ví dụ. Quan hệ R trên các chuỗi ký tự xác định bởi <br> aRb ⇔ a và b có cùng độ dài. <br> Khi đó R là quan hệ tương đương",
+                        "KH": "Lớp Tương đươngCho R là quan hệ tương đương trên A và x thuộc A. Khi đó, tập hợp tất cả các phần tử trong A có quan hệ với x được gọi là lớp tương đương của x, ký hiệu bởi x hoặc [x]                        "
+                    }],
+                    "KTLQ": [{
+                        "text1": "Quan hệ đồng dư trên Z"
+
+                    }]
+                }],
+                "content3": "Bài 3:Quan hệ thứ tự",
+                "bai3": [{
+                    "title": "Quan hệ R trên tập hợp A được gọi là quan hệ thứ tự nếu nó thỏa mãn các tính chất phản xạ, phản xứng và bắc cầu. Khi đó (A, R) được gọi là một tập thứ tự   ",
+                    "noidung": [{
+                        "DN": "Nếu R là một thứ tự trên tập hợp A thì ta ký hiệu a b thay cho aRb, và ký hiệu a ≺ b thay cho a b nhưng a 6= b.  ",
+                        "KH": "Phần tử Trội Cho (A, ) là một tập thứ tự và x, y ∈ A. Khi đó: <br>1 Nếu x  y thì ta nói y là trội của x hoặc x được trội bởi y. <br>2 Nếu x ≺ y thì ta nói y là trội thật sự của x. <br>3 Nếu x ≺ y và không tồn tại z ∈ A sao cho x ≺ z ≺ y thì ta nói y là trội trực tiếp của x",
+                        "KH1": "Biểu đồ Hasse:Biểu đồ Hasse của tập thứ tự (A, ) là một đồ thị có hướng ",
+                        "KH2": "Phần tử Cực trị"
+                    }],
+                    "KTLQ": [{
+                        "text1": "Thứ tự toàn phần"
+
+                    }]
+                }]
+            }]
+        },
+        {
+            "content": "Chương 3: Boole",
+            "id": 3,
+            "category": "Bool",
+            "data": [{
+                "content1": "Bài 1:Hàm Boole",
+                "bai1": [{
+                    "title": "  Một hàm Boole n biến là ánh xạ                     ",
+                    "noidung": [{
+                        "ex": "+ Như vậy hàm Boole n biến là một hàm số có dạng : f = f(x1, x2, . . . , xn), ",
+                        "KH": "+ Ví dụ. f(x, y, z, t) = (x ∨ z)t ∨ (x y ∨ y t)z ∨ (y z ∨ x y z)t là hàm Boole 4 biến",
+                        "img": "B:\\Dowload\\TT-UD-main\\TT-UD-main\\src\\img\\manglogic1.PNG",
+                        "DN": "Một quan hệ trên tập hợp A là một quan hệ hai ngôi từ A đến chính nó. ",
+                        "DN1": "Các tính chất của Quan hệ<br>Cho R là quan hệ trên A. Ta nói",
+                        "ex1": "R phản xạ ⇔ ∀x ∈ A, xRx.<br>R đối xứng ⇔ ∀x, y ∈ A, xRy → yRx.<br>R phản xứng ⇔ ∀x, y ∈ A, xRy ∧ yRx → x = y.<br>R bắc cầu (hay còn gọi là truyền) ⇔<br> ∀x, y, z ∈ A, xRy ∧ yRz → xRz."
+                    }],
+                    "KTLQ": [{
+                        "text1": "Biểu diễn quan hệ"
+
+                    }]
+                }],
+                "content2": "Bài 2: Bảng Chân Trị",
+                "bai2": [{
+                    "title": "Xét hàm Boole n biến f = f(x1, x2, . . . , xn). Vì mỗi biến xi chỉ nhận một trong hai giá trị 0, 1 nên chỉ có 2 n trường hợp của bộ biến (x1, x2, . . . , xn).",
+                    "noidung": [{
+                        "ex": "Do đó, để mô tả f, ta có thể lập bảng gồm 2 n hàng ghi tất cả các giá trị của f tùy theo 2 n trường hợp của biến. Ta gọi đây là bảng chân trị của f. ",
+                        "ex1": "Ví dụ. Xét kết quả f trong việc thông qua một quyết định dựa vào 3 phiếu bầu x, y, z. Mỗi phiếu chỉ lấy một trong hai giá trị: 1 (tán thành) hoặc 0 (bác bỏ)",
+                        "KH": "Kết qủa f là 1 (thông qua quyết định) nếu được đa số phiếu tán thành, là 0 (không thông qua quyết định) nếu đa số phiếu bác bỏ. Hãy lập bảng chân trị của f.                             "
+                    }],
+                    "KTLQ": [{
+                        "text1": "Quan hệ đồng dư trên Z"
+
+                    }]
+                }],
+                "content3": "Bài 3:Dạng Nối rời chính tắc",
+                "bai3": [{
+                    "title": "Định nghĩa. Xét tập hợp các hàm Boole Fn theo n biến x1, x2, . . . , xn.  ",
+                    "noidung": [{
+                        "DN": "Mỗi hàm Boole xi hay xi được gọi là từ đơn <br>Từ tối tiểu là tích khác không của đúng n từ đơn",
+                        "KH": "Nhận xét. Tập hợp các hàm Boole n biến chứa đúng 2n từ đơn và 2 n từ tối tiểu.",
+                        "KH1": "Định lý: Cho f là hàm Boole n biến x1, x2, . . . xn ",
+                        "KH2": "Nếu f là từ tối tiểu thì bảng chân trị của f có đúng một vị trí bằng 1.<br> Ngược lại, nếu f chỉ nhận giá trị 1 tại vị trí u = (a1, a2, . . . , an) thì f là từ tối tiểu có dạng f = b1 b2 . . . bn, trong đó bi =  xi nếu ai = 1; xi nếu ai = 0."
+                    }],
+                    "KTLQ": [{
+                        "text1": "Ánh Xạ <br>Tích Ánh Xạ"
+
+                    }]
+                }]
+            }]
+        }
+    ]
+}
